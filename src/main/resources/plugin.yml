@@ -1,0 +1,14 @@
+name: FlyPlugin
+version: '${project.version}'
+main: dev.omochi.flyplugin.FlyPlugin
+api-version: 1.18
+
+commands:
+  fly:
+    description: fly command
+    permission: fly.use
+    permission-message: "you don't have any permissions!"
+permissions:
+  fly.use:
+    description: fly permission description
+    default: op
